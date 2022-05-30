@@ -115,7 +115,7 @@ input#new-task {
 
 /* Task list */
 
-li {
+.list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -124,7 +124,7 @@ li {
   align-items: center;
 }
 
-li > * {
+.list__item > * {
   vertical-align: middle;
 }
 
@@ -132,14 +132,14 @@ li > * {
   margin: 0 10px;
 }
 
-li > label {
+.list__item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li >    input[type="text"] {
+.list__item > input[type="text"] {
   width: 226px;
 }
 
@@ -160,7 +160,7 @@ li >    input[type="text"] {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul .list__item input[type=text] {
   display: none;
 }
 
