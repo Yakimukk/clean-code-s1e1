@@ -75,7 +75,8 @@ button:hover {
 
 /* Heading */
 
-.title {
+.title,
+.new-task__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,7 +105,7 @@ input[type="text"]:focus {
 
 /* New Task */
 
-.add-item__title {
+.new-task__label {
   display: block;
   margin: 0 0 20px;
 }
@@ -160,7 +161,7 @@ input#new-task {
 }
 
 /* Edit Task */
-ul .list__item input[type=text] {
+ul li input[type=text] {
   display: none;
 }
 
